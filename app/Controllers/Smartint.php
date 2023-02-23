@@ -15,8 +15,10 @@ class Smartint extends BaseController
 	}
 	public function smartint_applayout()
 	{
-		$data['IconMain']   = "cube";
-		$data['page_title_main'] = "SmartAdmin Intel";
+		$data = [
+            'IconMain'=>'cube',
+            'page_title_main'=>'SmartAdmin Intel'
+        ];
 		return view('smartint-applayout', $data);
 	}
 	public function smartint_difver()

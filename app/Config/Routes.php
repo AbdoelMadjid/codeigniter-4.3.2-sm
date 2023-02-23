@@ -125,6 +125,7 @@ $routes->group('miscellaneous', function ($routes) {
     $routes->add('misc_error500', 'Miscellaneous::misc_error500');
     $routes->add('misc_blank_', 'Miscellaneous::misc_blank_');
     $routes->add('misc_coming_soon', 'Miscellaneous::misc_coming_soon');
+    $routes->add('misc_chat', 'Miscellaneous::misc_chat');
 });
 
 
