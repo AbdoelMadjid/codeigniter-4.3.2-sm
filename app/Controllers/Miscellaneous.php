@@ -49,10 +49,10 @@ class Miscellaneous extends BaseController
 	public function misc_chat()
 	{
 		$data = [
-            'IconMain'=>'cube',
-            'page_title_main'=>'Chat'
-        ];
-		return view('misc-chat',$data);
+			'IconMain' => 'cube',
+			'page_title_main' => 'Chat'
+		];
+		return view('misc-chat', $data);
 	}
 	public function misc_coming_soon()
 	{
